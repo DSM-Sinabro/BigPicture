@@ -1,0 +1,131 @@
+header{
+    width:100%;
+    height:60px;
+    background-color: #EAEAEA;
+    font-size:14px;
+    padding-top:1.3%;
+    padding-left:5.5%;
+}
+
+#login{
+  width: 3.4%;
+  height: 58%;
+  font-size: 14px;
+  float:right;
+  margin-right:2%;
+  margin-left:0.5%;
+}
+
+#searchbutton{
+  height:58%;
+  font-size: 12px;
+  border:1px solid #99E000;
+  border-radius:0px;
+  background-color: #99E000;
+  float:right;
+  margin-right:7%;
+}
+
+#search{
+  border: 2px solid #99E000;
+  width: 15%;
+  height: 58%;
+  color: #000000;
+  float:right;
+  font-size: 15px;
+
+}
+
+.menu{
+    margin-top:0%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    padding-left:5%;
+}
+
+img{
+    width:15%;
+    float:left;
+}
+
+.menubar{
+  margin:0px;
+  padding-left:32%;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.menubar ul{
+  background: ;
+  height:50px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.menubar li{
+  float:left;
+  padding:0px;
+}
+
+.menubar li a{
+  background: ;
+  color:black;
+  display:block;
+  font-weight:normal;
+  line-height:50px;
+  margin:0px;
+  padding:0px 50px;
+  text-align:center;
+  text-decoration:none;
+}
+
+.menubar li a:hover, .menubar ul li:hover a{
+  background: #F6F6F6;
+  color:#4374D9;
+  text-decoration:none;
+}
+
+.menubar p{
+  clear:left;
+}
+
+a{
+    cursor:auto;
+}
+
+.gate{
+    height:530px;
+    background-image: url(../img/book1.jfif);
+    background-size: cover;
+}
+
+footer{
+    margin-top:1%;
+}
+
+#info{
+    width:40%;
+    margin-left:1%;
+}
+
+#dsmlogo{
+    width:20%;
+    float:right;
+    margin-right:1%;
+}
+
+#text{
+    font-weight:bold;
+    text-align:center;
+    padding-top:15%;
+    font-size:50px;
+    color: yellow;
+    text-shadow:
+    -1px -1px 0 #000,
+    3px -3px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-family:"KOVERWATCH"
+}
