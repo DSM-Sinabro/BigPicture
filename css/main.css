@@ -76,18 +76,17 @@ p {
 
 #ID {
     margin-bottom:2%;
+    width:60%;
 }
 
-.modal-content {
-    width:70%;
+.content1 {
+    width:60%;
+    margin-left:20%;
 }
 
-.modal-dialog {
-    padding-left:10%;
-}
 
 #PW{
-    width:64%;
+    width:60%;
 }
 
 #btn_login {
