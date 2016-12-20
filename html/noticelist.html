@@ -1,60 +1,117 @@
 <!doctype html>
 <html lang="ko">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>BOOKTOPIA_NOTICELIST</title>
     <link rel="stylesheet" href="../css/noticelist.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  </head>
-  <body>
-     <header>
-         <b>이용시간: 1:05 ~ 1:35, 6:05 ~ 6:35</b>
-         <button id="searchbutton" type="button"><span class="glyphicon glyphicon-search"></span></button>
-         <input id="search" type="text" name="도서검색" placeholder=" Book Search">
-     </header>
-     <div class="menu">
-         <img src="../img/logo.png">
-         <div class="menubar">
-           <ul>
-             <li id="nowpage"><a href="#">공지사항</a></li>
-             <li><a href="#">도서신청</a></li>
-             <li><a href="#">도서신문</a></li>
-             <li><a href="#">도서행사</a></li>
-             <li><a href="#">건의함</a></li>
-             <li><a href="#"><strong><font color="gray">로그인</font></strong></a></li>
-           </ul>
-         </div>
-     </div>
-     <div class="gate">
-             <div id="warn">
-                 &nbsp;게시판에 글쓰기를 하는 경우, 본문 또는 첨부파일내에 개인정보(주민등록번호, 성명, 연락처 등)가 포함되어 게시되지 않도록 유의하시기 바랍니다. 개인정보를 포함하여 게시하는 경우에는 불특정 다수에게 개인정보가 노출되어 악용될 수 있으며, 특히 타인의 개인정보가 노출되는 경우에는 개인정보보호법에 따라 처벌을 받을 수 있음을 알려드립니다.
-             </div>
-             <div id="searchnotice">
-                 <input id="searchblank" type="text" name="searchnotice">
-                 <button id="searchbutton2" type="button"><span class="glyphicon glyphicon-search"></span></button>
-             </div>
-            <table id="noticelist">
-                <tr id="t_title"> <td class="td1">No</td> <td class="td2">Title</td> <td class="td3">첨부파일</td> <td class="td4">작성일시</td> </tr>
-                <tr> <td class="td1">10</td> <td class="td2"><a href="">독서토론대회</a></td> <td class="td3">첨부파일</td> <td class="td4">2016-12-13</td> </tr>
-                <tr> <td class="td1">9</td> <td class="td2"><a href="">독후감상문대회공지</a></td> <td class="td3">첨부파일</td> <td class="td4">2016-12-12</td> </tr>
-                <tr> <td class="td1">8</td> <td class="td2"><a href="">독서퀴즈정답</a></td> <td class="td3">첨부파일</td> <td class="td4">2016-12-10</td> </tr>
-                <tr> <td class="td1">7</td> <td class="td2"><a href="">도서신문발간</a></td> <td class="td3">첨부파일</td> <td class="td4">2016-12-09</td> </tr>
-                <tr> <td class="td1">6</td> <td class="td2"><a href="">작가와의 만남</a></td> <td class="td3">첨부파일</td> <td class="td4">2016-12-05</td> </tr>
-                <tr> <td class="td1">5</td> <td class="td2"><a href="">신간도서목록</a></td> <td class="td3">첨부파일</td> <td class="td4">2016-12-04</td> </tr>
-                <tr> <td class="td1">4</td> <td class="td2"><a href="">학년별 졸업 인증 도서</a></td> <td class="td3">첨부파일</td> <td class="td4">2016-12-02</td> </tr>
-                <tr> <td class="td1">3</td> <td class="td2"><a href="">도서 신청 안내</a></td> <td class="td3">첨부파일</td> <td class="td4">2016-12-01</td> </tr>
-                <tr> <td class="td1">2</td> <td class="td2"><a href="">신입도서부원선발공고</a></td> <td class="td3">첨부파일</td> <td class="td4">2016-11-23</td> </tr>
-                <tr> <td class="td1">1</td> <td class="td2"><a href="">도서부 로테이션</a></td> <td class="td3">첨부파일</td> <td class="td4">2016-11-13</td> </tr>
-            </table>
-         <div id="paging">
-             <a class="page" href="">1</a>
-             <a class="page" href="">2</a>
-             <a class="page" href="">3</a>
-         </div>
-     </div>
-     <footer>
-         <img id="info" src="../img/schoolinfo.png">
-         <img id="dsmlogo" src="../img/dsmlogo.png">
-     </footer>
-  </body>
+</head>
+
+<body>
+    <header>
+        <b>이용시간: 1:05 ~ 1:35, 6:05 ~ 6:35</b>
+        <button id="searchbutton" type="button"><span class="glyphicon glyphicon-search"></span></button>
+        <input id="search" type="text" name="도서검색" placeholder=" Book Search">
+    </header>
+    <div class="menu">
+        <img src="../img/logo.png">
+        <div class="menubar">
+            <ul>
+                <li id="nowpage"><a href="#">공지사항</a></li>
+                <li><a href="#">도서신청</a></li>
+                <li><a href="#">도서신문</a></li>
+                <li><a href="#">도서행사</a></li>
+                <li><a href="#">건의하는건의함</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="gate">
+        <div id="warn">
+            &nbsp;게시판에 글쓰기를 하는 경우, 본문 또는 첨부파일내에 개인정보(주민등록번호, 성명, 연락처 등)가 포함되어 게시되지 않도록 유의하시기 바랍니다. 개인정보를 포함하여 게시하는 경우에는 불특정 다수에게 개인정보가 노출되어 악용될 수 있으며, 특히 타인의 개인정보가 노출되는 경우에는 개인정보보호법에 따라 처벌을 받을 수 있음을 알려드립니다.
+        </div>
+        <div id="searchnotice">
+            <input id="searchblank" type="text" name="searchnotice">
+            <button id="searchbutton2" type="button"><span class="glyphicon glyphicon-search"></span></button>
+        </div>
+        <table id="noticelist">
+            <tr id="t_title">
+                <td class="td1">No</td>
+                <td class="td2">Title</td>
+                <td class="td3">첨부파일</td>
+                <td class="td4">작성일시</td>
+            </tr>
+            <tr>
+                <td class="td1">10</td>
+                <td class="td2"><a href="">독서토론대회</a></td>
+                <td class="td3">첨부파일</td>
+                <td class="td4">2016-12-13</td>
+            </tr>
+            <tr>
+                <td class="td1">9</td>
+                <td class="td2"><a href="">독후감상문대회공지</a></td>
+                <td class="td3">첨부파일</td>
+                <td class="td4">2016-12-12</td>
+            </tr>
+            <tr>
+                <td class="td1">8</td>
+                <td class="td2"><a href="">독서퀴즈정답</a></td>
+                <td class="td3">첨부파일</td>
+                <td class="td4">2016-12-10</td>
+            </tr>
+            <tr>
+                <td class="td1">7</td>
+                <td class="td2"><a href="">도서신문발간</a></td>
+                <td class="td3">첨부파일</td>
+                <td class="td4">2016-12-09</td>
+            </tr>
+            <tr>
+                <td class="td1">6</td>
+                <td class="td2"><a href="">작가와의 만남</a></td>
+                <td class="td3">첨부파일</td>
+                <td class="td4">2016-12-05</td>
+            </tr>
+            <tr>
+                <td class="td1">5</td>
+                <td class="td2"><a href="">신간도서목록</a></td>
+                <td class="td3">첨부파일</td>
+                <td class="td4">2016-12-04</td>
+            </tr>
+            <tr>
+                <td class="td1">4</td>
+                <td class="td2"><a href="">학년별 졸업 인증 도서</a></td>
+                <td class="td3">첨부파일</td>
+                <td class="td4">2016-12-02</td>
+            </tr>
+            <tr>
+                <td class="td1">3</td>
+                <td class="td2"><a href="">도서 신청 안내</a></td>
+                <td class="td3">첨부파일</td>
+                <td class="td4">2016-12-01</td>
+            </tr>
+            <tr>
+                <td class="td1">2</td>
+                <td class="td2"><a href="">신입도서부원선발공고</a></td>
+                <td class="td3">첨부파일</td>
+                <td class="td4">2016-11-23</td>
+            </tr>
+            <tr>
+                <td class="td1">1</td>
+                <td class="td2"><a href="">도서부 로테이션</a></td>
+                <td class="td3">첨부파일</td>
+                <td class="td4">2016-11-13</td>
+            </tr>
+        </table>
+        <div id="paging">
+            <a class="page" href="">1</a>
+            <a class="page" href="">2</a>
+            <a class="page" href="">3</a>
+        </div>
+    </div>
+    <footer>
+        <img id="info" src="../img/schoolinfo.png">
+        <img id="dsmlogo" src="../img/dsmlogo.png">
+    </footer>
+</body>
+
 </html>
