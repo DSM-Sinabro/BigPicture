@@ -8,27 +8,54 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.2/fullcalendar.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.2/fullcalendar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.2/fullcalendar.print.css">
+    <script src="../js/modal.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <button type="button" id="btn_apply" data-toggle="modal" data-target="#myModal" class="icon"><span class="glyphicon glyphicon-book"><br><span style="font-size:6rem;">Apply</span></span></button>
-        <div class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content content2">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">도서신청</h4>
+    <button type="button" id="btn_news" data-toggle="modal" data-target "#News" class="icon"><span class="glyphicon glyphicon-list-alt"><br><span style="font-size:6rem;">Event</span></span></button>
+    <div class="modal fade" id="view_eventadd">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">일정</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <label>일정 입력</label><br/>
+                        <input type="text" id="modal-title" class="span10">
+                    </p>
+                    <div id="calendar">
+
                     </div>
-                    <div class="modal-body">
-                        <input class="book_apply" type="text" name="Title" placeholder="책제목"><br>
-                        <input class="book_apply" type="text" name="Writer" placeholder="저자"><br>
-                        <input class="book_apply" type="text" name="Publisher" placeholder="출판사"><br>
-                        <input class="book_apply" type="text" name="Price" placeholder="정가">
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">신청제출</button>
-                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-option="add" id="add">추가</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="view_event">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="event_title">일정</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <label>일정</label><br/>
+                        <input type="text" id="change_modal-title" class="span10">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-option="remove" id="remove">삭제</button>
+                    <button type="button" class="btn btn-primary" data-option="edit" id="edit">수정</button>
+                    <button type=" button" class="btn btn-default" data-dismiss="modal">닫기</button>
                 </div>
             </div>
         </div>

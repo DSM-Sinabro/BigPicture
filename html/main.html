@@ -5,16 +5,18 @@
     <meta charset="utf-8">
     <title>BOOKTOPIA_MAIN</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.js"></script>
     <script src="../js/main.js"></script>
 </head>
 
 <body>
     <div class="view" id="first">
         <input id="search" type="text" name="도서검색" placeholder="도서검색">
-        <button id="searchbutton" type="button"><span  class="glyphicon glyphicon-search"></span></button>
+        <button id="searchbutton" type="button" onclick="location.href='../html/searchbook.html'"><span  class="glyphicon glyphicon-search"></span></button>
         <div id="login">
             <div class="container">
                 <button type="button" id="btn_login" data-toggle="modal" data-target="#myModal">Login</button>
@@ -37,10 +39,12 @@
                 </div>
             </div>
         </div>
-        <p id="name">BOOKTOPIA</p>
-        <p id="text">DSM 도서 서비스 웹페이지</p>
-        <p id="time">도서관 이용 시간</p>
-        <p id="time">1:05 ~ 1: 35 / 6:05 ~ 6:35</p>
+        <div id="texts">
+            <p id="name">BOOKTOPIA</p>
+            <p id="text">DSM 도서 서비스 웹페이지</p>
+            <p id="time">도서관 이용 시간</p>
+            <p id="time">1:05 ~ 1: 35 / 6:05 ~ 6:35</p>
+        </div>
         <button id="btn_start" type="button" name="Login">Start!</button>
     </div>
     <div class="view" id="second">
@@ -75,7 +79,8 @@
                             <h4 class="modal-title">도서신문</h4>
                         </div>
                         <div id="modal_news" class="modal-body">
-                            <img id="page1" class="newsimage" src="../img/홍보지1.png">
+                            <img class="newsimage" src="../img/홍보지1.png">
+                            <img class="newsimage" src="../img/홍보지2.png">
                         </div>
                     </div>
                 </div>
@@ -89,7 +94,7 @@
                             <h4 class="modal-title">도서관일정</h4>
                         </div>
                         <div id="modal_event" class="modal-body">
-                            <iframe src="https://calendar.google.com/calendar/embed?src=7pj61f4pldtr73k078scp8viic%40group.calendar.google.com&ctz=Asia/Seoul"></iframe>
+                            <iframe src="https://calendar.google.com/calendar/embed?src=7pj61f4pldtr73k078scp8viic%40group.calendar.google.com&ctz=Asia/Seoul" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                         </div>
                     </div>
                 </div>
@@ -112,7 +117,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </body>

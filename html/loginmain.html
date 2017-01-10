@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>BOOKTOPIA_MAIN</title>
+    <title>BOOKTOPIA_LOGINMAIN</title>
     <link rel="stylesheet" href="../css/loginmain.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -13,12 +13,16 @@
 
 <body>
     <div class="view" id="first">
+        <input id="search" type="text" name="도서검색" placeholder="도서검색">
+        <button id="searchbutton" type="button"><span  class="glyphicon glyphicon-search"></span></button>
         <div id="myPage">
             <button type="button" name="logout" id="btn_Logout" onclick="location.href='../html/main.html' ">LogOut</button>
-            <button type="button" name="myPage" id="btn_myPage">MyPage</button>
+            <button type="button" name="myPage" id="btn_myPage" onclick="location.href='../html/mypage.html'">MyPage</button>
         </div>
         <p id="name">BOOKTOPIA</p>
         <p id="text">DSM 도서 서비스 웹페이지</p>
+        <p id="time">도서관 이용 시간</p>
+        <p id="time">1:05 ~ 1: 35 / 6:05 ~ 6:35</p>
         <button id="btn_start" type="button" name="Login">Start!</button>
     </div>
     <div class="view" id="second">

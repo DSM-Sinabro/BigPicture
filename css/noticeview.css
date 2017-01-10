@@ -130,6 +130,7 @@ textarea {
     border:1px solid black;
     border-radius:10px;
     height:230px;
+    padding:1%;
 }
 
 .context {

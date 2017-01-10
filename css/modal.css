@@ -1,24 +1,11 @@
-.icon {
-    background: none;
-    border:none;
-    margin-right:3%;
-    margin-left:3%;
+body {
+    margin: 40px 10px;
+    padding: 0;
+    font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 14px;
 }
 
-.glyphicon {
-    font-size:130px;
-}
-
-.glyphicon:hover {
-    color:#b1ecef;
-}
-
-.book_apply {
-    width:100%;
-    margin-bottom:2%;
-}
-
-.content2 {
-    width:70%;
-    margin-left:20%;
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
 }

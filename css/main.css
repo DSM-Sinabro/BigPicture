@@ -20,6 +20,8 @@ p {
   float:left;
   background: none;
   margin-top:3%;
+  position:fixed;
+  left:19vw;
 }
 
 #search{
@@ -36,6 +38,8 @@ p {
   margin-left:2%;
   padding-left:1%;
   color:white;
+  position:fixed;
+  left:2vw;
 }
 
 #search::-webkit-input-placeholder {
@@ -59,19 +63,34 @@ p {
     height:auto;
 }
 
+#texts{
+    background-color: rgba(195, 198, 204, 0.3);
+    border-radius:20px;
+    width:40%;
+    margin:auto;
+    margin-top:13%;
+    padding-bottom:1%;
+    margin-bottom:3%;
+    color:white;
+}
+
 #name {
     font-size: 80px;
-    padding-top:5%;
+    margin-top:10%;
+    font-weight:bold;
+    border-radius:10px;
 }
 
 #text {
     font-size: 30px;
     margin-bottom:3%;
+    font-weight:bold;
 }
 
 #time {
     font-size:30px;
     margin-bottom:3%;
+    font-weight:bold;
 }
 
 #btn_start {
@@ -181,4 +200,6 @@ iframe {
 
 .newsimage {
     width:80%;
+    margin-bottom:3%;
+    border:3px solid gray;
 }
