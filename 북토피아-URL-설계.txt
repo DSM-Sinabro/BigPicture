@@ -1,0 +1,34 @@
+get
+
+'/' : main
+'/noticelist/pagenum' : 공지사항 목록
+'/notice/postnum' : 공지사항 내용
+'/mypage/myinfo' : mypage 내 정보
+'/mypage/mybooklist' : mypage 내 정보 확인
+'/searchBookList' : 책 검색 목록
+'/news' : 북토피아 뉴스
+'/event': 이벤트
+ 
+
+
+post
+
+'/signin' : 로그인
+'/signout' : 로그아웃
+'/suggest' : 의견
+'/apply' : 도서 신청
+'/borrowExtend' : 도서 연장
+'/searchBook' : 책 검색
+
+
+완성 시킬 주요 기능
+
+- 로그인, 로그아웃 (★★★)
+- myPage (★)
+- search book (★★)
+- notice (★★★★★)
+- event (★★★★★★)
+- suggest (★★★★)
+- apply (★★★)
+- news (★★★★★★)
+
