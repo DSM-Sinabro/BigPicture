@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>BOOKTOPIA_LOGINMAIN</title>
+    <link rel="stylesheet" href="../css/loginmain.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <div class="view" id="first">
+        <input id="search" type="text" name="도서검색" placeholder="도서검색">
+        <button id="searchbutton" type="button"><span  class="glyphicon glyphicon-search"></span></button>
+        <div id="myPage">
+            <button type="button" name="logout" id="btn_Logout" onclick="location.href='../html/main.html' ">LogOut</button>
+            <button type="button" name="myPage" id="btn_myPage" onclick="location.href='../html/mypage.html'">MyPage</button>
+        </div>
+        <p id="name">BOOKTOPIA</p>
+        <p id="text">DSM 도서 서비스 웹페이지</p>
+        <p id="time">도서관 이용 시간</p>
+        <p id="time">1:05 ~ 1: 35 / 6:05 ~ 6:35</p>
+        <button id="btn_start" type="button" name="Login">Start!</button>
+    </div>
+    <div class="view" id="second">
+        <div id="menu">
+            <button class="icon" onclick="location.href='../html/noticelist.html' "><span class="glyphicon glyphicon-bullhorn"><br><span style="font-size:6rem;">Notice</span></span></button>
+            <button type="button" id="btn_apply" data-toggle="modal" data-target="#Apply" class="icon"><span class="glyphicon glyphicon-book"><br><span style="font-size:6rem;">Apply</span></span></button>
+            <div class="modal fade" id="myModal_apply" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content content2">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">도서신청</h4>
+                        </div>
+                        <div id="modal_apply" class="modal-body">
+                            <input class="book_apply" type="text" name="Title" placeholder="책제목"><br>
+                            <input class="book_apply" type="text" name="Writer" placeholder="저자"><br>
+                            <input class="book_apply" type="text" name="Publisher" placeholder="출판사"><br>
+                            <input class="book_apply" type="text" name="Price" placeholder="정가">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">신청제출</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="btn_news" data-toggle="modal" data-target "#News" class="icon"><span class="glyphicon glyphicon-list-alt"><br><span style="font-size:6rem;">News</span></span></button>
+            <div class="modal fade" id="myModal_news" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">도서신문</h4>
+                        </div>
+                        <div id="modal_news" class="modal-body">
+                            <img id="page1" class="newsimage" src="../img/홍보지1.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="btn_event" data-toggle="modal" data-target="#Event" class="icon"><span class="glyphicon glyphicon-calendar"><br><span style="font-size:6rem;">Event</span></span></button>
+            <div class="modal fade" id="myModal_event" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content content4">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">도서관일정</h4>
+                        </div>
+                        <div id="modal_event" class="modal-body">
+                            <iframe src="https://calendar.google.com/calendar/embed?src=7pj61f4pldtr73k078scp8viic%40group.calendar.google.com&ctz=Asia/Seoul"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="btn_suggest" data-toggle="modal" data-target "#Suggest" class="icon"><span class="glyphicon glyphicon-flag"><br><span style="font-size:6rem;">Suggest</span></span></button>
+            <div class="modal fade" id="myModal_suggest" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">건의함</h4>
+                        </div>
+                        <div id="modal_suggest" class="modal-body">
+                            <input id="suggest_title" type="text" name="title" placeholder="제목">
+                            <textarea id="textarea" name="suggestion" rows="8" cols="70" placeholder="건의내용"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">건의제출</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

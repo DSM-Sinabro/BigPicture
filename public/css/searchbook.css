@@ -1,0 +1,111 @@
+header{
+    width:100%;
+    height:60px;
+    background-color: #EAEAEA;
+    font-size:14px;
+    padding-top:1.3%;
+    padding-left:5.5%;
+}
+
+#login{
+  width: 3.4%;
+  height: 58%;
+  font-size: 14px;
+  float:right;
+  margin-right:2%;
+  margin-left:0.5%;
+}
+
+#searchbutton{
+  height:58%;
+  font-size: 12px;
+  border:1px solid #99E000;
+  border-radius:0px;
+  background-color: #99E000;
+  float:right;
+  margin-right:7%;
+}
+
+#search{
+  border: 2px solid #99E000;
+  width: 15%;
+  height: 58%;
+  color: #000000;
+  float:right;
+  font-size: 15px;
+
+}
+
+.menu{
+    margin-top:0%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    padding-left:5%;
+}
+
+img{
+    width:15%;
+    float:left;
+}
+
+.menubar{
+  width:100%;
+  margin:0px;
+  padding-left:18%;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.menubar ul{
+  height:50px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.menubar li{
+  float:left;
+  padding:0px;
+  border-bottom:5px solid #b4edcb;
+}
+
+.menubar li a{
+  color:white;
+  display:block;
+  font-weight:normal;
+  line-height:50px;
+  margin:0px;
+  padding:0px 50px;
+  text-align:center;
+  text-decoration:none;
+}
+
+.menubar p{
+  clear:left;
+}
+
+#nowpage {
+    background-color:#b4edcb;
+}
+
+#nowpage a {
+    color:black;
+}
+
+.gate{
+    height:auto;
+}
+
+#info{
+    width:40%;
+    margin-left:1%;
+    margin-top:1.3%;
+}
+
+#dsmlogo{
+    width:20%;
+    float:right;
+    margin-right:1%;
+    margin-top:1.3%;
+}

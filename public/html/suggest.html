@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>BOOKTOPIA_NOTICELIST</title>
+    <link rel="stylesheet" href="../css/suggest.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <b>이용시간: 1:05 ~ 1:35, 6:05 ~ 6:35</b>
+        <button id="searchbutton" type="button"><span class="glyphicon glyphicon-search"></span></button>
+        <input id="search" type="text" name="도서검색" placeholder=" Book Search">
+    </header>
+    <div class="menu">
+        <a href="/"><img src="../img/logo.png"></a>
+        <div class="menubar">
+            <ul>
+                <li id="nowpage"><a href="../html/suggest.html">건의함</a></li>
+                <li><a href="#">도서신청</a></li>
+                <li><a href="#">도서신문</a></li>
+                <li><a href="#">도서행사</a></li>
+                <li><a href="#">건의하는건의함</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="gate">
+        <div id="information">
+            &nbsp;도서관 운영, 도서 관리 등 도서관/도서 운영에 있어서 건의하고 싶거나 바라는 점을 기재하여 제출하여 주시기 바랍니다. 건의함에 제출된 내용은 도서부원이 회의를 걸쳐 도서관 운영에 반영될 예정입니다.
+        </div>
+        <div id="frame">
+            <p id="title">제&nbsp;&nbsp;목<input id="input_title" type="text" name="title"></p>
+            <p id="content"><textarea id="input_content" name="content" placeholder="내용을 입력해주세요"></textarea></p>
+            <button type="button" name="submit" id="btn_submit">제 출</button>
+        </div>
+    </div>
+    <footer>
+        <img id="info" src="../img/schoolinfo.png">
+        <img id="dsmlogo" src="../img/dsmlogo.png">
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-image: url(../img/book2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menubar{
+    width:100%;
+    margin-top:2%;
+    margin-left:20%;
+    padding-left:20%;
+    font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.menubar ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+.menubar li{
+    float: left;
+}
+
+.menubar li a{
+    color:white;
+    display:block;
+    font-weight:normal;
+    line-height:50px;
+    margin:0px;
+    padding:0px 50px;
+    text-align:center;
+    text-decoration:none;
+}
+
+#btn_news :hover {
+    cursor: pointer;
+}
+
+#btn_event :hover {
+    cursor: pointer;
+}
+
+.newsimage {
+    margin-left:10%;
+    width:80%;
+    margin-bottom:3%;
+    border:3px solid gray;
+}
+
+iframe {
+    width:100%;
+    height:500px;
+    border:none;
+}
+
+#btn_login {
+    background:none;
+    border-radius:10px;
+    font-size:25px;
+    color:white;
+    border:3px solid white;
+    padding-left:1%;
+    padding-right:1%;
+    position:fixed;
+    margin-top:3%;
+    left:5vw;
+    margin-top:1%;
+}
