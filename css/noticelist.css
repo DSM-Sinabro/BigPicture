@@ -1,0 +1,198 @@
+header{
+    width:100%;
+    height:60px;
+    background-color: #EAEAEA;
+    font-size:14px;
+    padding-top:1.3%;
+    padding-left:5.5%;
+}
+
+#login{
+  width: 3.4%;
+  height: 58%;
+  font-size: 14px;
+  float:right;
+  margin-right:2%;
+  margin-left:0.5%;
+}
+
+#searchbutton{
+  height:58%;
+  font-size: 12px;
+  border:1px solid #99E000;
+  border-radius:0px;
+  background-color: #99E000;
+  float:right;
+  margin-right:7%;
+}
+
+#search{
+  border: 2px solid #99E000;
+  width: 15%;
+  height: 58%;
+  color: #000000;
+  float:right;
+  font-size: 15px;
+
+}
+
+.menu{
+    margin-top:0%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    padding-left:5%;
+}
+
+img{
+    width:15%;
+    float:left;
+}
+
+.menubar{
+  width:100%;
+  margin:0px;
+  padding-left:18%;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.menubar ul{
+  height:50px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.menubar li{
+  float:left;
+  padding:0px;
+  border-bottom:5px solid #b4edcb;
+}
+
+.menubar li a{
+  color:white;
+  display:block;
+  font-weight:normal;
+  line-height:50px;
+  margin:0px;
+  padding:0px 50px;
+  text-align:center;
+  text-decoration:none;
+}
+
+.menubar p{
+  clear:left;
+}
+
+#nowpage {
+    background-color:#b4edcb;
+}
+
+#nowpage a {
+    color:black;
+}
+
+#noticelist a {
+    cursor:auto;
+    text-decoration:none;
+    color:black;
+}
+
+#noticelist a:hover{
+    text-decoration: underline;
+    color:#4374D9;
+}
+
+#paging a {
+    cursor:auto;
+    text-decoration:none;
+    color:black;
+}
+
+.gate{
+    height:auto;
+}
+
+#info{
+    width:40%;
+    margin-left:1%;
+    margin-top:1.3%;
+}
+
+#dsmlogo{
+    width:20%;
+    float:right;
+    margin-right:1%;
+    margin-top:1.3%;
+}
+
+table {
+    font-size:13px;
+    text-align: center;
+    width:55.5%;
+    margin:auto;
+}
+
+td {
+    border:1px solid black;
+    height:40px;
+}
+
+.td1 {
+    width:7%;
+}
+
+.td2 {
+    width:65%;
+}
+
+.td3 {
+    width:10%;
+}
+
+.td4 {
+    width:18%;
+}
+
+#t_title {
+    background-color: #EAEAEA;
+}
+
+#warn {
+    font-size:13px;
+    border:1px solid black;
+    width:55.5%;
+    margin:0px auto;
+    margin-top:1.2%;
+    margin-bottom:1%;
+    padding-left:1%;
+    padding-right:1%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+}
+
+#searchblank {
+    width:13%;
+    height:1%;
+    margin-left:62.5%;
+}
+
+#searchnotice {
+    margin-bottom:1%;
+}
+
+#searchbutton2 {
+    width:30px;
+    height:25px;
+}
+
+#paging {
+    padding-top:1%;
+    padding-left:50%;
+}
+
+.page {
+    font-size:13px;
+    margin-left:2%;
+}

@@ -1,0 +1,42 @@
+<div class="modal fade" id="view_eventadd">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title">일정</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										<label>일정 입력</label><br/>
+										<input type = "text" id = "modal-title" class = "span10">
+									</p>
+									
+								</div>
+								<div class="modal-footer">
+									<button type = "button" class="btn btn-primary" data-option="add" id="add">추가</button>
+									<button type = "button" class="btn btn-default" data-dismiss="modal">닫기</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="view_event">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true">&times;</button>
+									<h4 class="modal-title" id="event_title">일정</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										<label>일정</label><br/>
+										<input type = "text" id = "change_modal-title" class = "span10">
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type = "button" class = "btn btn-danger" data-option = "remove" id = "remove">삭제</button>
+									<button type = "button" class = "btn btn-primary" data-option = "edit" id = "edit">수정</button>
+									<button type= " button" class = "btn btn-default" data-dismiss = "modal">닫기</button>
+								</div>
+							</div>
+						</div>
+					</div>
