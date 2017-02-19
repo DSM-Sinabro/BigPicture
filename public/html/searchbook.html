@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>BOOKTOPIA_SEARCHBOOKLIST</title>
+    <link rel="stylesheet" href="../css/searchbook.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="../js/searchbook.js"></script>
+</head>
+
+<body>
+    <header>
+        <b>이용시간: 1:05 ~ 1:35, 6:05 ~ 6:35</b>
+        <button id="searchbutton" type="button"><span class="glyphicon glyphicon-search"></span></button>
+        <input id="search" type="text" name="도서검색" placeholder=" Book Search">
+    </header>
+    <div class="menu">
+        <a href="/"><img src="../img/logo.png"></a>
+        <div class="menubar">
+            <ul>
+                <li id="nowpage"><a href="../html/mypage.html">검색도서목록</a></li>
+                <li><a href="#">대출/반납도서</a></li>
+                <li><a href="#">도서신문</a></li>
+                <li><a href="#">도서행사</a></li>
+                <li><a href="#">건의하는건의함</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="gate">
+        <p id="count">총 10건의 도서가 검색되었습니다.</p>
+        <table>
+            <tr>
+                <td class="title">책제목</td>
+                <td class="author">저자</td>
+                <td class="publisher">출판정보</td>
+                <td class="callnum">청구기호</td>
+                <td class="condition">자료상태</td>
+            </tr>
+            <!--
+                <% for(num in searchbooklist) %>
+                <tr>
+                    <td class="title"><%= searchbooklist[num].title %></td>
+                    <td class="author"><%= searchbooklist[num].author %></td>
+                    <td class="publisher"><%= searchbooklist[num].publisher %></td>
+                    <td class="callnum"><%= searchbooklist[num].callnum %></td>
+                    <td class="condition"><%= searchbooklist[num].condition %></td>
+                </tr>
+            -->
+            <tr>
+                <td class="title">시 꽃 이야기 꽃</td>
+                <td class="author">김미경</td>
+                <td class="publisher">찰리북</td>
+                <td class="callnum">811.7김38ㅅ</td>
+                <td class="condition">대출가능</td>
+            </tr>
+            <tr>
+                <td class="title">시 꽃 이야기 꽃</td>
+                <td class="author">김미경</td>
+                <td class="publisher">찰리북</td>
+                <td class="callnum">811.7김38ㅅ</td>
+                <td class="condition">대출가능</td>
+            </tr>
+            <tr>
+                <td class="title">시 꽃 이야기 꽃</td>
+                <td class="author">김미경</td>
+                <td class="publisher">찰리북</td>
+                <td class="callnum">811.7김38ㅅ</td>
+                <td class="condition">대출가능</td>
+            </tr>
+            <tr>
+                <td class="title">시 꽃 이야기 꽃</td>
+                <td class="author">김미경</td>
+                <td class="publisher">찰리북</td>
+                <td class="callnum">811.7김38ㅅ</td>
+                <td class="condition">대출가능</td>
+            </tr>
+            <tr>
+                <td class="title">시 꽃 이야기 꽃</td>
+                <td class="author">김미경</td>
+                <td class="publisher">찰리북</td>
+                <td class="callnum">811.7김38ㅅ</td>
+                <td class="condition">대출가능</td>
+            </tr>
+            <tr>
+                <td class="title">시 꽃 이야기 꽃</td>
+                <td class="author">김미경</td>
+                <td class="publisher">찰리북</td>
+                <td class="callnum">811.7김38ㅅ</td>
+                <td class="condition">대출가능</td>
+            </tr>
+            <tr>
+                <td class="title">시 꽃 이야기 꽃</td>
+                <td class="author">김미경</td>
+                <td class="publisher">찰리북</td>
+                <td class="callnum">811.7김38ㅅ</td>
+                <td class="condition">대출가능</td>
+            </tr>
+            <tr>
+                <td class="title">시 꽃 이야기 꽃</td>
+                <td class="author">김미경</td>
+                <td class="publisher">찰리북</td>
+                <td class="callnum">811.7김38ㅅ</td>
+                <td class="condition">대출가능</td>
+            </tr>
+            <tr>
+                <td class="title">시 꽃 이야기 꽃</td>
+                <td class="author">김미경</td>
+                <td class="publisher">찰리북</td>
+                <td class="callnum">811.7김38ㅅ</td>
+                <td class="condition">대출가능</td>
+            </tr>
+            <tr>
+                <td class="title">시 꽃 이야기 꽃</td>
+                <td class="author">김미경</td>
+                <td class="publisher">찰리북</td>
+                <td class="callnum">811.7김38ㅅ</td>
+                <td class="condition">대출가능</td>
+            </tr>
+        </table>
+        <div id="pagenum">
+            <a class="page" href="#">1</a>
+            <a class="page" href="#">2</a>
+        </div>
+    </div>
+    <footer>
+        <img id="info" src="../img/schoolinfo.png">
+        <img id="dsmlogo" src="../img/dsmlogo.png">
+    </footer>
+</body>
+
+</html>

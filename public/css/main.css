@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    background-image: url(../img/book2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#btn_login{
+    background:none;
+    border-radius:10px;
+    font-size:25px;
+    color:white;
+    border:3px solid white;
+    padding-left:1%;
+    padding-right:1%;
+    position:fixed;
+    top:5vh;
+    left:3vw;
+}
+
+#btn_logout{
+    background:none;
+    border-radius:10px;
+    font-size:25px;
+    color:white;
+    border:3px solid white;
+    padding-left:1%;
+    padding-right:1%;
+    position:fixed;
+    top:5vh;
+    left:3vw;
+}
+
+#id {
+    margin-left: 10%;
+    margin-bottom:2%;
+    width:81.5%;
+}
+
+#pwd {
+    margin-left: 10%;
+    width:81.5%;
+}
+
+#btn_login:hover {
+    border:3px solid #b1ecef;
+    color:#b1ecef;
+}
+
+.content1 {
+    width:42%;
+    margin-left: 30%;
+}
+
+.menubar{
+    width:100%;
+    margin-top:2%;
+    margin-left:30%;
+    padding-left:20%;
+    font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.menubar ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+.menubar li{
+    float: left;
+}
+
+.menubar li a{
+    color:white;
+    display:block;
+    font-weight:normal;
+    line-height:50px;
+    margin:0px;
+    padding:0px 50px;
+    text-align:center;
+    text-decoration:none;
+}
+
+#btn_news :hover {
+    cursor: pointer;
+}
+
+#btn_event :hover {
+    cursor: pointer;
+}
+
+.content4 {
+    width:180%;
+    right:16vw;
+}
+
+.modal-body {
+    /*background-image: url(../img/book4.jfif);*/
+
+}
+
+.week {
+    width:10vw;
+    padding-left:1%;
+    padding-right:1%;
+    text-align:center;
+    border:3px solid #d7e1ef;
+}
+
+.day {
+    height:8vw;
+    border:3px solid #d7e1ef;
+}
+
+
+.newsimage {
+    margin-left:10%;
+    width:80%;
+    margin-bottom:3%;
+    border:3px solid gray;
+}
+
+iframe {
+    width:100%;
+    height:500px;
+    border:none;
+}
+
+.calendar {
+    width: 100%;
+    overflow: visible;
+    text-align: center;
+    display: table;
+    margin-top:1%;
+}
+
+.calendar .week {
+    font-size: 15px;
+    font-weight: bold;
+    height: 8vh;
+}
+
+.calendar .saturday {
+    color: #3a87ad;
+    font-size: 16px;
+    font-weight: bold;
+    height: 13vh;
+    border: 3px solid #d0dcef;
+    text-align: left;
+    vertical-align: top;
+    padding:0.5%;
+}
+
+.calendar .sunday {
+    background: white;
+    color: crimson;
+    font-size: 16px;
+    font-weight: bold;
+    height: 13vh;
+    border: 3px solid #d0dcef;
+    text-align: left;
+    vertical-align: top;
+    padding:0.5%;
+}
+
+.calendar .today {
+    color: darkblue;
+    font-size: 16px;
+    font-weight: bold;
+    height: 13vh;
+    border: 3px solid #d0dcef;
+    text-align: left;
+    vertical-align: top;
+    padding:0.5%;
+}
+
+.calendar .blank {
+    color: brown;
+    font-size: 16px;
+    font-weight: bold;
+    height: 13vh;
+    border: 3px solid #d0dcef;
+}
+
+.calendar .day {
+    color: #515151;
+    font-size: 16px;
+    font-weight: bold;
+    height: 13vh;
+    text-align: left;
+    vertical-align: top;
+    padding:0.5%;
+    border: 3px solid #d0dcef;
+}
